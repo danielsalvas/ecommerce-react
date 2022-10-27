@@ -9,7 +9,7 @@ const Home = ({ products, bannerData}) => {
     <>
       <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
 
-      {/* Test objects from Sanity */}
+      {/* Test data objects from Sanity */}
         {console.log(products)}
         {console.log(bannerData)}
 
@@ -32,6 +32,8 @@ const Home = ({ products, bannerData}) => {
     </>
   )
 }
+
+// Fetch data method in NEXT JS
 
 export const getServerSideProps = async () => {
   const query = '*[_type == "product" ]';
