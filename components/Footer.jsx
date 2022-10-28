@@ -6,8 +6,8 @@ const Footer = () => {
     <div className='footer-container'>
       <p> 2022 Forstore SV All rights reserved</p>
       <p className='icons'>
-        <AiFillInstagram />
-        <AiOutlineFacebook />
+        <a href="https://www.instagram.com/forstoresv/" target='_blank'> <AiFillInstagram /> </a>
+        <a href="https://www.facebook.com/Forstoresv" target='_blank'> <AiOutlineFacebook /> </a>
       </p>
     </div>
   )
